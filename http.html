@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTTP</title>
+    <style>
+         body{
+            font-family: Arial;
+            background-color: rgb(209, 198, 183);
+            color:rgb(12, 12, 12);
+            margin: 20px;
+        }
+    h1{
+        color:#3a1e1ec3;
+    }
+    nav a{
+        margin-right: 10px;
+        color:rgb(146, 133, 115);
+        text-decoration: none;
+    }
+    nav a:hover{
+        text-decoration: underline;
+    }
+    ul{
+        line-height: 2;
+    }
+    img {
+      width: 500px;
+      height: 300px;
+      margin: 15px 0;
+      display: block;
+    }
+    p {
+      line-height: 1.8;
+      max-width: 800px;
+    }
+    footer{
+        margin-top: 30px;
+        font-size: 0.85em;
+        color: rgb(105, 125, 126);
+    }      
+    </style>
+</head>
+<body>
+
+    <h1>Hypertext Transfer Protocal-HTTP</h1>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="www.html">WWW</a>
+        <a href="tcp-ip.html">TCP/IP</a>
+        <a href="browsers.html">Web Browsers</a>
+        <a href="servers.html">Web Servers</a>
+        <a href="urls.html">URLs</a>
+        <a href="dns.html">DNS</a>
+        <a href="http.html">HTTP</a>
+        <a href="intranet.html">Intranet</a>
+        <a href="extranet.html">Extranet</a>
+        <a href="multitier.html">Multitier Architecture</a>
+        <a href="ftp.html">FTP</a>
+        <a href="html-term.html">HTML</a>
+        <a href="web1.html">Web 1.0</a>
+        <a href="web2.html">Web 2.0</a>
+        <a href="web3.html">Web 3.0</a>
+        <a href="web4.html">Web 4.0</a>
+    </nav>
+
+    <hr>
+
+    <h2>Definition</h2>
+     <p>
+    HTTP stands for Hypertext Transfer Protocol. It is the protocol used 
+    by the World Wide Web to send and receive information between a web 
+    client and a web server. When using this protocol, the domain name 
+    or IP address is preceded by <strong>http://</strong> in the address bar 
+    of the browser.
+  </p>
+
+  <img src="images/http.jpg" alt="Diagram showing the HTTP request and response cycle between client and server"/>
+    
+  <h2>HTTP as a Request-Response Protocol</h2>
+  <p>
+    HTTP is a request-response protocol. This means that communication 
+    always begins with the client sending a request to the server, and 
+    the server responding back with the requested content. This cycle 
+    happens every time you load a web page.
+  </p>
+  <p>The request-response cycle works as follows:</p>
+  <ul>
+    <li>The user types a web address or clicks a link in the browser.</li>
+    <li>The browser sends an HTTP request to the appropriate web server.</li>
+    <li>The web server searches its system for the requested resource.</li>
+    <li>The server responds to the request by sending back the resource contents.</li>
+    <li>The browser receives the response and displays the page to the user.</li>
+  </ul>
+
+  <h2>Types of HTTP Requests</h2>
+  <p>
+    HTTP requests are always of a specific type. The most common types are:
+  </p>
+  <ul>
+    <li><strong>GET</strong> — requests data from a specified resource, such as loading a web page.</li>
+    <li><strong>POST</strong> — sends data to the server, such as submitting a form.</li>
+    <li><strong>HEAD</strong> — same as GET but only retrieves the headers, not the body.</li>
+    <li><strong>PUT</strong> — uploads or replaces a resource on the server.</li>
+    <li><strong>DELETE</strong> — deletes a specified resource from the server.</li>
+    <li><strong>CONNECT</strong> — establishes a tunnel to the server.</li>
+    <li><strong>OPTIONS</strong> — describes the communication options available for the resource.</li>
+    <li><strong>TRACE</strong> — performs a message loop-back test along the path to the target resource.</li>
+  </ul>
+
+  <h2>HTTP and the World Wide Web</h2>
+  <p>
+    HTTP is one of the most important technologies that the World Wide Web 
+    adds on top of the underlying Internet. Without HTTP, web browsers would 
+    have no standard way to request and receive web pages from servers. 
+    It is the foundation of all data communication on the Web and works 
+    hand in hand with HTML and URLs to deliver content to users around 
+    the world.
+  </p>
+
+  <footer>
+    <p>Internet Terminology Project &copy; 2026 </p>
+  </footer>
+</body>
+</html>
