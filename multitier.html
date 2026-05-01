@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multitier Architecture</title>
+    <style>
+         body{
+            font-family: Arial;
+            background-color: rgb(209, 198, 183);
+            color:rgb(12, 12, 12);
+            margin: 20px;
+        }
+    h1{
+        color:#3a1e1ec3;
+    }
+    nav a{
+        margin-right: 10px;
+        color:rgb(146, 133, 115);
+        text-decoration: none;
+    }
+    nav a:hover{
+        text-decoration: underline;
+    }
+    ul{
+        line-height: 2;
+    }
+    img {
+      width: 500px;
+      height: 300px;
+      margin: 15px 0;
+      display: block;
+    }
+    p {
+      line-height: 1.8;
+      max-width: 800px;
+    }
+    footer{
+        margin-top: 30px;
+        font-size: 0.85em;
+        color: rgb(105, 125, 126);
+    }      
+    </style>
+</head>
+<body>
+    <h1>Multitier Architecture</h1>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="www.html">WWW</a>
+        <a href="tcp-ip.html">TCP/IP</a>
+        <a href="browsers.html">Web Browsers</a>
+        <a href="servers.html">Web Servers</a>
+        <a href="urls.html">URLs</a>
+        <a href="dns.html">DNS</a>
+        <a href="http.html">HTTP</a>
+        <a href="intranet.html">Intranet</a>
+        <a href="extranet.html">Extranet</a>
+        <a href="multitier.html">Multitier Architecture</a>
+        <a href="ftp.html">FTP</a>
+        <a href="html-term.html">HTML</a>
+        <a href="web1.html">Web 1.0</a>
+        <a href="web2.html">Web 2.0</a>
+        <a href="web3.html">Web 3.0</a>
+        <a href="web4.html">Web 4.0</a>
+    </nav>
+
+    <hr>
+
+     <h2>What is Multitier Architecture?</h2>
+  <p>
+    Multitier architecture, also known as n-tier architecture, is a system 
+    that is deployed across multiple different physical nodes or computers. 
+    An understanding of distributed computer systems and the concept of 
+    layers and tiers is important to understand how web applications are 
+    structured and how they work.
+  </p>
+
+  <img src="images/multitier.jpg" alt="Diagram showing the layers and tiers of a multitier web application architecture" />
+
+  <h2>The Concept of Layers</h2>
+  <p>
+    A layered architecture is one where different parts of a software system 
+    are regarded as having a separate role. This is a conceptual rather than 
+    a physical layering of system components. The three basic layers are:
+  </p>
+  <ul>
+    <li>
+      <strong>Presentation Layer</strong> — deals with the user interface. 
+      This is what the user sees and interacts with, typically a web browser.
+    </li>
+    <li>
+      <strong>Business Logic Layer</strong> — handles the business processes 
+      and concepts used in the application. This is where the rules and 
+      operations of the application are carried out.
+    </li>
+    <li>
+      <strong>Data Management Layer</strong> — deals with managing and 
+      persisting the underlying data in the system, typically through 
+      a database.
+    </li>
+  </ul>
+
+  <h2>The Concept of Tiers</h2>
+   <p>
+    The term tier is generally used to mean physically separated devices. 
+    A multitier system is therefore one that is deployed on multiple 
+    different nodes or computers. Using multiple tiers is necessary when 
+    we want to make our applications distributed and scalable so they 
+    can handle large numbers of users at the same time.
+  </p>
+
+  <h2>Real World Example</h2>
+  <p>
+    Consider a web-based banking system as an example of multitier 
+    architecture in practice:
+  </p>
+  <ul>
+    <li>
+     <strong>Presentation layer</strong> — the web browser running on 
+      each customer's computer. This layer is distributed across all 
+      the users' computers around the world.
+    </li>
+    <li>
+      <strong>Application layer</strong> — running on a central computer 
+      or multiple computers at the bank, handling transactions and 
+      business logic.
+    </li>
+    <li>
+      <strong>Data management layer</strong> — running on a separate 
+      machine or several machines to cope with large numbers of users 
+      and to assist in maintaining security.
+    </li>
+
+<h2>N-Tier Architecture</h2>
+  <p>
+    Once we start using large numbers of computers running different parts 
+    of the system across multiple tiers, we have what is called an n-tier 
+    architecture. N-tier architectures are a fundamental part of web 
+    applications because the presentation layer, which runs in web browsers, 
+    is always widely distributed across many users' machines. The large 
+    number of users of some systems means that the business logic and data 
+    management layers may also have to be distributed across multiple 
+    machines to keep up with demand.
+  </p>
+
+  <footer>
+    <p>Internet Terminology Project &copy; 2026</p>
+  </footer>
+  </ul>
+</body>
+</html>
